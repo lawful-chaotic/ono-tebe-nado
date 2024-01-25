@@ -20,18 +20,44 @@
 /*BAM! Cover*/
 .cover {
   background-color: #b012db;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   text-transform: uppercase;
+  display: block;
   width: 1100px;
   height: 757px;
 }
 .headline {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
   font-size: 100px;
   font-weight: bold;
-  line-height: 115%;
   letter-spacing: 30px;
+  padding: 165px 50px 237px;
+  width: 100%
 }
-.background {
+.special-letter-spacing {
+  letter-spacing: 60px;
+}
+.zero-letter-spacing{
+  letter-spacing: normal;
+}
+.flex-item{
+  line-height: 115%;
+}
+.flex-item-center{
+  align-self: center;
+  line-height: 100%;
+}
+.flex-item-end {
+  align-self: end;
+  line-height: 100%;
 }
 .subtitle {
   font-weight: normal;
@@ -82,9 +108,9 @@
 .link {
   text-decoration-line: underline;
 }
-.read-more{
+.read-more {
   display: block;
-  margin:30px 0 0 40px;
+  margin: 30px 0 0 40px;
 }
 /*BAM! About*/
 .about {
