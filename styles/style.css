@@ -1,7 +1,7 @@
 /*BAM! Header*/
 .header {
   margin: 92px 24px 96px;
-  background-color: #f2eaff;
+  background-color: #b48df3;
 }
 .menu {
   font-size: 18px;
@@ -20,7 +20,7 @@
 /*BAM! Cover*/
 .cover {
   background-color: #b012db;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   width: 1100px;
   height: 757px;
@@ -34,14 +34,13 @@
 .background {
 }
 .subtitle {
-font-weight: normal;
-line-height: 28px;
-
+  font-weight: normal;
+  line-height: 28px;
 }
 .button {
-text-align: center;
-font-weight: 500;
-line-height: normal;
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
 }
 /*BAM! Lots*/
 .lots {
@@ -55,31 +54,43 @@ line-height: normal;
   text-transform: uppercase;
 }
 .card-list {
+  display: flex;
+  gap: 25px;
 }
 .card {
+  box-sizing: border-box;
+
   background-color: #990757;
-  color: #FFF;
+  color: #fff;
+  padding: 51px 40px 48px;
+  width: 334px;
+  height: 563px;
 }
 .lot-title {
-font-weight: bold;
-line-height: 120%; 
-text-transform: uppercase;
+  font-weight: bold;
+  line-height: 120%;
+  text-transform: uppercase;
 }
 .lot-image {
 }
 .text {
   font-size: 20px;
-font-weight: normal;
-line-height: 120%;
+  font-weight: normal;
+  line-height: 120%;
 }
 
 .link {
   text-decoration-line: underline;
 }
+.read-more{
+  display: block;
+  margin:30px 0 0 40px;
+}
 /*BAM! About*/
 .about {
   background-color: #eaf4ff;
   margin: 0 24px 90px;
+  padding: 35px 0 0 47px;
 }
 /*BAM! Footer*/
 .footer {

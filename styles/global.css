@@ -6,10 +6,11 @@
 
 body {
   width: 1100px;
+  height: 3028px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   font-size: 22px;
-  background-color: #220152; /*df to delete*/
+  background-color: #FFFFFF;
   color: #000;
 }
 
