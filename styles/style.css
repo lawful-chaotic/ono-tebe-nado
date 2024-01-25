@@ -1,49 +1,90 @@
 /*BAM! Header*/
 .header {
+  margin: 92px 24px 96px;
+  background-color: #f2eaff;
 }
 .menu {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
 }
 .icon-black {
 }
 .icon-white {
 }
 .contacts {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 135%;
 }
 /*BAM! Cover*/
 .cover {
+  background-color: #b012db;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 1100px;
+  height: 757px;
 }
 .headline {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 115%;
+  letter-spacing: 30px;
 }
 .background {
 }
 .subtitle {
+font-weight: normal;
+line-height: 28px;
+
 }
 .button {
+text-align: center;
+font-weight: 500;
+line-height: normal;
 }
 /*BAM! Lots*/
 .lots {
+  background-color: #f2eaff;
+  margin: 179px 24px 146px;
 }
 .heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .card-list {
 }
 .card {
+  background-color: #990757;
+  color: #FFF;
 }
 .lot-title {
+font-weight: bold;
+line-height: 120%; 
+text-transform: uppercase;
 }
 .lot-image {
 }
-.white-text {
+.text {
+  font-size: 20px;
+font-weight: normal;
+line-height: 120%;
 }
-.black-text {
-}
+
 .link {
+  text-decoration-line: underline;
 }
 /*BAM! About*/
 .about {
+  background-color: #eaf4ff;
+  margin: 0 24px 90px;
 }
 /*BAM! Footer*/
 .footer {
+  background-color: #f2eaff;
+  margin: 90px 24px 88px;
 }
 .media {
 }
