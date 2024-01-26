@@ -2,11 +2,29 @@
 .header {
   margin: 92px 24px 96px;
   background-color: #b48df3;
+  padding: 0 26px 0;
+  width: 1052px;
+  height: 105px;
 }
 .menu {
+  box-sizing: border-box;
   font-size: 18px;
   font-weight: normal;
   line-height: normal;
+  display: flex;
+  letter-spacing: 0.18px;
+  gap: 13.48px;
+  padding: 44px 0 40px;
+}
+.list-position {
+  display: list-item;
+  list-style-image: url(../images/list_marker.svg);
+  text-underline-offset: 2px;
+  list-style-position: outside;
+}
+
+.first-list-position {
+  list-style: none;
 }
 .icon-black {
 }
@@ -40,18 +58,18 @@
   font-weight: bold;
   letter-spacing: 30px;
   padding: 165px 50px 237px;
-  width: 100%
+  width: 100%;
 }
 .special-letter-spacing {
   letter-spacing: 60px;
 }
-.zero-letter-spacing{
+.zero-letter-spacing {
   letter-spacing: normal;
 }
-.flex-item{
+.flex-item {
   line-height: 115%;
 }
-.flex-item-center{
+.flex-item-center {
   align-self: center;
   line-height: 100%;
 }
