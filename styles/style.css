@@ -1,39 +1,62 @@
 /*BAM! Header*/
 .header {
   margin: 92px 24px 96px;
-  background-color: #b48df3;
   padding: 0 26px 0;
   width: 1052px;
   height: 105px;
+  display: flex;
+  justify-content: space-between;
 }
 .menu {
-  box-sizing: border-box;
+  display: flex;
+  gap: 35px;
   font-size: 18px;
   font-weight: normal;
   line-height: normal;
-  display: flex;
   letter-spacing: 0.18px;
-  gap: 13.48px;
-  padding: 44px 0 40px;
 }
-.list-position {
-  display: list-item;
-  list-style-image: url(../images/list_marker.svg);
-  text-underline-offset: 2px;
-  list-style-position: outside;
+.menu-list {
+  box-sizing: border-box;
+  padding: 44px 0 40px;
+  list-style: circle;
+  display: flex;
+  gap: 31.48px;
+  text-underline-offset: 3px;
 }
 
-.first-list-position {
+.menu-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.markerless-list-position {
   list-style: none;
 }
 .icon-black {
+  width: 148px;
+  height: 105px;
+  /*align-content: center;*/
 }
 .icon-white {
+  width: 148px;
+  height: 114px;
+  justify-content: center;
+}
+.icon-background {
+  background-image: url(../images/Ellipse\ 10.svg);
+  background-position: center;
+  padding: 63px 46px;
+  width: 240px;
+  height: 240px;
 }
 .contacts {
   font-size: 18px;
   font-weight: normal;
   line-height: 135%;
+  width: 240.521px;
+  height: 98px;
+  align-self: flex-end;
 }
 /*BAM! Cover*/
 .cover {
@@ -92,6 +115,7 @@
   margin: 179px 24px 146px;
 }
 .heading {
+  margin: 0 0 27px 40px;
   font-size: 40px;
   font-weight: bold;
   line-height: normal;
@@ -103,20 +127,25 @@
 }
 .card {
   box-sizing: border-box;
-
   background-color: #990757;
   color: #fff;
   padding: 51px 40px 48px;
   width: 334px;
   height: 563px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .lot-title {
   font-weight: bold;
   line-height: 120%;
   text-transform: uppercase;
+  width: 254px;
+  font-size: 22px;
 }
 .lot-image {
 }
+
 .text {
   font-size: 20px;
   font-weight: normal;
@@ -125,21 +154,47 @@
 
 .link {
   text-decoration-line: underline;
+  text-underline-offset: 2px;
 }
 .read-more {
   display: block;
   margin: 30px 0 0 40px;
+  font-size: 20px;
+  text-underline-offset: 3px;
 }
 /*BAM! About*/
 .about {
-  background-color: #eaf4ff;
-  margin: 0 24px 90px;
+  margin: 0 24px 0px;
   padding: 35px 0 0 47px;
+  display: flex;
+  gap: 72px;
 }
+.heading-logo{
+  margin: 101px 0 100px;
+}
+.article-content {
+  display: flex;
+  flex-direction: column;
+}
+.text-content{
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
+  letter-spacing: 0.2px;
+}
+
 /*BAM! Footer*/
 .footer {
-  background-color: #f2eaff;
-  margin: 90px 24px 88px;
+  margin: 180px 50px 88px;
+  display: flex;
+  justify-content: space-between;
+  align-content: start;
 }
 .media {
+  display: flex;
+  gap: 48px;
+}
+.media-icon {
+  width: 48px;
+  height: 48px;
 }
