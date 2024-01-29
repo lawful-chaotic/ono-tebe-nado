@@ -80,7 +80,7 @@
   font-size: 100px;
   font-weight: bold;
   letter-spacing: 30px;
-  padding: 165px 50px 237px;
+  padding: 165px 50px 147px;
   width: 100%;
 }
 .special-letter-spacing {
@@ -101,17 +101,27 @@
   line-height: 100%;
 }
 .subtitle {
+  box-sizing: content-box;
   font-weight: normal;
   line-height: 28px;
+  text-transform: uppercase;
+  padding: 0 0 62px 78px;  
+}
+.word-spacing-a {
+  word-spacing: 18px; /*letter-spacing: 24.2px;*/
+}
+.word-spacing-d {
+  word-spacing: 19px;
 }
 .button {
-  text-align: center;
   font-weight: 500;
   line-height: normal;
+  border: solid 1px;
+  padding: 12px 32px 11px 31px;
+  margin-left: 74px;
 }
 /*BAM! Lots*/
 .lots {
-  background-color: #f2eaff;
   margin: 179px 24px 146px;
 }
 .heading {
@@ -169,17 +179,17 @@
   display: flex;
   gap: 72px;
 }
-.heading-logo{
+.heading-logo {
   margin: 101px 0 100px;
 }
 .article-content {
   display: flex;
   flex-direction: column;
 }
-.text-content{
+.text-content {
   display: flex;
   flex-direction: column;
-  gap: 24px; 
+  gap: 24px;
   letter-spacing: 0.2px;
 }
 
