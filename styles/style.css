@@ -36,7 +36,6 @@
 .logo-black {
   width: 148px;
   height: 105px;
-
 }
 .logo-white {
   justify-content: center;
@@ -78,7 +77,6 @@
   height: 757px;
   opacity: 0.6;
   background-color: #000;
-
 }
 .headline {
   z-index: 2;
@@ -148,27 +146,26 @@
   list-style: none;
 }
 .card {
-  
   position: relative;
   box-sizing: border-box;
-  
+
   width: 334px;
   height: 563px;
   color: #fff;
   background-position: center;
   background-size: cover;
 }
-.card-movie{
+.card-movie {
   background-image: url(../images/card-lot-01.jpg);
 }
-.card-book{
+.card-book {
   background-image: url(../images/card-lot-02.jpg);
 }
-.card-picture{
+.card-picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card-content{
+.card-content {
   position: absolute;
   z-index: 1;
   display: flex;
@@ -224,7 +221,6 @@
   gap: 24px;
   letter-spacing: 0.2px;
 }
-
 
 .footer {
   display: flex;
