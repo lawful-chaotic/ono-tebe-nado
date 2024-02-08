@@ -1,12 +1,13 @@
 /*come on*/
+
 .header {
   display: flex;
   justify-content: space-between;
   width: 1052px;
-  height: 105px;
   margin: 92px 24px 96px;
   padding: 0 26px 0;
 }
+
 .menu {
   display: flex;
   gap: 35px;
@@ -15,6 +16,7 @@
   line-height: normal;
   letter-spacing: 0.18px;
 }
+
 .menu-list {
   display: flex;
   gap: 31.48px;
@@ -33,35 +35,43 @@
 .markerless-list-position {
   list-style: none;
 }
-.logo-black {
+
+.logo-header {
   width: 148px;
   height: 105px;
+  position: relative;
+  left: -74px;
+  top:0;
 }
-.logo-white {
+
+.logo-contrast {
   justify-content: center;
   width: 148px;
   height: 114px;
 }
+
 .logo-background {
   height: 240px;
   padding: 63px 46px;
-  background-image: url(../images/Ellipse\ 10.svg);
+  background-color: #000;
+  border-radius: 50%;
 }
+
 .contacts {
   align-self: flex-end;
   width: 240.521px;
-  height: 98px;
   font-weight: normal;
   font-size: 18px;
   line-height: 135%;
+  padding-bottom: 0.8px;
 }
 
 .cover {
-  z-index: 0;
+  z-index: -1;
   display: flex;
   flex-direction: column;
   width: 1100px;
-  height: 757px;
+  min-height: 757px;
   color: #fff;
   text-transform: uppercase;
   background-color: #b012db;
@@ -69,17 +79,23 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
+
 .overlay {
+  display: block;
   position: absolute;
-  z-index: 1;
-  width: 1100px;
-  height: 757px;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
   opacity: 0.6;
   background-color: #000;
 }
+
 .headline {
-  z-index: 2;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -90,38 +106,46 @@
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
+  line-height: 100%;
 }
+
 .special-letter-spacing {
   letter-spacing: 60px;
 }
+
 .no-letter-spacing {
   letter-spacing: normal;
 }
-.flex-item {
+
+.flex-item-special {
   line-height: 115%;
 }
+
 .flex-item-center {
   align-self: center;
-  line-height: 100%;
 }
+
 .flex-item-end {
   align-self: end;
-  line-height: 100%;
 }
+
 .subtitle {
-  z-index: 2;
+  z-index: 1;
   box-sizing: content-box;
   padding: 0 0 62px 78px;
   font-weight: normal;
   line-height: 28px;
   text-transform: uppercase;
 }
+
 .word-spacing-a {
   word-spacing: 18px; /*letter-spacing: 24.2px;*/
 }
+
 .word-spacing-b {
   word-spacing: 19px;
 }
+
 .button {
   margin-left: 74px;
   border: solid 1px;
@@ -133,6 +157,7 @@
 .lots {
   margin: 179px 24px 146px;
 }
+
 .heading {
   margin: 0 0 27px 40px;
   font-weight: bold;
@@ -140,52 +165,51 @@
   line-height: normal;
   text-transform: uppercase;
 }
+
 .card-list {
   display: flex;
   gap: 25px;
   list-style: none;
 }
+
 .card {
   position: relative;
   box-sizing: border-box;
-
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   color: #fff;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 51px 40px 48px;
 }
+
 .card-movie {
   background-image: url(../images/card-lot-01.jpg);
 }
+
 .card-book {
   background-image: url(../images/card-lot-02.jpg);
 }
+
 .card-picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card-content {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 334px;
-  height: 563px;
-  padding: 51px 40px 48px;
-  background-color: rgba(0, 0, 0, 0.6);
-}
 
 .lot-title {
-  width: 254px;
+  max-width: 254px;
   font-weight: bold;
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .text {
+  z-index: 1;
   font-weight: normal;
   font-size: 20px;
   line-height: 120%;
@@ -195,6 +219,7 @@
   text-decoration-line: underline;
   text-underline-offset: 2px;
 }
+
 .read-more {
   display: block;
   margin: 30px 0 0 40px;
@@ -208,13 +233,16 @@
   margin: 0 24px 0px;
   padding: 35px 0 0 47px;
 }
+
 .heading-logo {
   margin: 101px 0 100px;
 }
+
 .article-content {
   display: flex;
   flex-direction: column;
 }
+
 .text-content {
   display: flex;
   flex-direction: column;
@@ -228,10 +256,12 @@
   align-content: start;
   margin: 180px 50px 88px;
 }
+
 .media {
   display: flex;
   gap: 48px;
 }
+
 .media-logo {
   width: 48px;
   height: 48px;
