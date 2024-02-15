@@ -129,7 +129,7 @@
 .bet-form {
   z-index: 2;
   box-sizing: content-box;
-  padding: 0 0 51px 78px;
+  padding: 0 0 51px 78px; /*выпадение контента было исправлено на предыдущем шаге, на скрине заметен другой паддинг*/
   font-weight: normal;
   line-height: 28px;
   text-transform: uppercase;
